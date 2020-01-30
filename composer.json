@@ -1,0 +1,25 @@
+{
+    "name": "drlenux/image-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "drlenux",
+            "email": "drlenux@gmail.com",
+            "homepage": "https://drlenux.name"
+        }
+    ],
+    "require": {
+        "php": ">5.6",
+        "symfony/var-dumper": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "drlenux\\imageHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "test\\": "test/"
+        }
+    }
+}
