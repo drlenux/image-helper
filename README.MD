@@ -47,5 +47,4 @@ for ($x = 0; $x < count($arr); ++$x) {
     }
 }
 
-dump($res);
-```
+dump($res); ```
